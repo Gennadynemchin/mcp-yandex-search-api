@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "yandex-search-api": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "mcp-yandex-search-api"
+      ],
+      "env": {
+        "YANDEX_FOLDER_ID": "",
+        "YANDEX_API_KEY": ""
+      }
+    }
+  }
+}

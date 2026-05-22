@@ -1,0 +1,30 @@
+{
+  "servers": {
+    "yandex-search-api": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${workspaceFolder}",
+        "run",
+        "mcp-yandex-search-api"
+      ],
+      "env": {
+        "YANDEX_FOLDER_ID": "${input:yandexFolderId}",
+        "YANDEX_API_KEY": "${input:yandexApiKey}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "id": "yandexFolderId",
+      "type": "promptString",
+      "description": "Yandex Cloud folder ID"
+    },
+    {
+      "id": "yandexApiKey",
+      "type": "promptString",
+      "description": "Yandex Cloud service account API key",
+      "password": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.uv/
+dist/
+build/
+*.egg-info/
+.env
+.envrc
+.DS_Store
+.idea/
+downloads/
