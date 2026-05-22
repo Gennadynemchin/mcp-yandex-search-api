@@ -141,7 +141,3 @@ Cursor читает конфигурацию из [`~/.cursor/mcp.json`](~/.curs
 ## Допустимые значения параметров
 
 См. [официальную документацию](https://aistudio.yandex.ru/docs/ru/search-api/operations/search-images.html#execute-request). Полный список значений также объявлен в типах [`server.py`](src/mcp_yandex_search_api/server.py:1).
-
-## Лицензия
-
-MIT.
